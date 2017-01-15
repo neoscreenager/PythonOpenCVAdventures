@@ -7,7 +7,7 @@ ap = argparse.ArgumentParser()
 # add input argument
 ap.add_argument("-i","--image",required=True,help="Path to the image")
 # add output argument
-ap.add_argument("-o","--output",required=False,help="Path to the output image")
+ap.add_argument("-o","--output",required=False,help="Path to the output image along with complete image name with extension")
 args = vars(ap.parse_args())
 
 # load the image and show some basic iformation on it
