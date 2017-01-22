@@ -46,8 +46,8 @@ cv2.imshow("Bottom-Right Corner",br)
 bl = image[cY:h,0:cX]
 cv2.imshow("Bottom-Left Corner",bl)
 
-# making the top-left section all green
-image[0:cY, 0:cX] = (0,255,0)
+# making the top-left section Olive
+image[0:cY, 0:cX] = (0,128,128)
 
 # Show the updated image
 cv2.imshow("Udated",image)
